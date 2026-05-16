@@ -500,11 +500,11 @@ recommended_exit_price, actual_exit_decision
 
 ## 10. 前提・制約
 
-- **データセット：** PoC-0010 と同一（EURUSD、同期間）
+- **データセット：** PoC-0010 と同一（USDJPY-、同期間）
 - **実装形式：** MQL5 EA + CSV ログ出力
 - **実売買：** 非対象（ロジック検証用PoC）
-- **ベースEA：** PoC-0009_base.mq5 を拡張
-- **分析ツール：** Python + Pandas / Numpy
+- **ベースEA：** PoC-0010.mq5 を拡張
+- **分析(前処理)ツール：** Python + Pandas / Numpy
 - **検証リソース：** HistoryCenter データ（複数年間）
 
 ---
